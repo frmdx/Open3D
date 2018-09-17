@@ -41,8 +41,10 @@ else ()
 endif ()
 
 # flann
-Directories("${CMAKE_CURRENT_SOURCE_DIR}/flann"  flann_INCLUDE_DIRS)
-
+if(NOT flann_INCLUDE_DIRS)
+    Directories("${CMAKE_CURRENT_SOURCE_DIR}/flann"  flann_INCLUDE_DIRS)
+endif()
+message("DEBUG: using flann_INCLUDE_DIR: ${flann_INCLUDE_DIRS}")
 # GLEW
 if (BUILD_GLEW)
     message(STATUS "Building GLEW from source (BUILD_GLEW=ON)")
@@ -223,7 +225,8 @@ list(APPEND 3RDPARTY_LIBRARIES
      ${JPEG_LIBRARIES}
      ${JSONCPP_LIBRARIES}
      ${PNG_LIBRARIES}
-     ${tinyfiledialogs_LIBRARIES})
+     ${tinyfiledialogs_LIBRARIES}
+     ${flann_LIBRARIES})
 
 set(3RDPARTY_INCLUDE_DIRS ${3RDPARTY_INCLUDE_DIRS} PARENT_SCOPE)
 set(3RDPARTY_LIBRARY_DIRS ${3RDPARTY_LIBRARY_DIRS} PARENT_SCOPE)
