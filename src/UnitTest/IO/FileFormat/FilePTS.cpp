@@ -24,44 +24,29 @@
 // IN THE SOFTWARE.
 // ----------------------------------------------------------------------------
 
-#include "UnitTest.h"
+#include "TestUtility/UnitTest.h"
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(FilePTS, DISABLED_ReadPointCloudFromPTS)
-{
-    NotImplemented();
-}
+TEST(FilePTS, DISABLED_ReadPointCloudFromPTS) { unit_test::NotImplemented(); }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(FilePTS, DISABLED_ResetConsoleProgress)
-{
-    NotImplemented();
-}
+TEST(FilePTS, DISABLED_ResetConsoleProgress) { unit_test::NotImplemented(); }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(FilePTS, DISABLED_SplitString)
-{
-    NotImplemented();
-}
+TEST(FilePTS, DISABLED_SplitString) { unit_test::NotImplemented(); }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(FilePTS, DISABLED_AdvanceConsoleProgress)
-{
-    NotImplemented();
-}
+TEST(FilePTS, DISABLED_AdvanceConsoleProgress) { unit_test::NotImplemented(); }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(FilePTS, DISABLED_WritePointCloudToPTS)
-{
-    NotImplemented();
-}
+TEST(FilePTS, DISABLED_WritePointCloudToPTS) { unit_test::NotImplemented(); }

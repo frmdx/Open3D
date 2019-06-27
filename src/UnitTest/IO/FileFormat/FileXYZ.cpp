@@ -24,20 +24,14 @@
 // IN THE SOFTWARE.
 // ----------------------------------------------------------------------------
 
-#include "UnitTest.h"
+#include "TestUtility/UnitTest.h"
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(FileXYZ, DISABLED_ReadPointCloudFromXYZ)
-{
-    NotImplemented();
-}
+TEST(FileXYZ, DISABLED_ReadPointCloudFromXYZ) { unit_test::NotImplemented(); }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(FileXYZ, DISABLED_WritePointCloudToXYZ)
-{
-    NotImplemented();
-}
+TEST(FileXYZ, DISABLED_WritePointCloudToXYZ) { unit_test::NotImplemented(); }

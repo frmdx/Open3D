@@ -24,60 +24,39 @@
 // IN THE SOFTWARE.
 // ----------------------------------------------------------------------------
 
-#include "UnitTest.h"
+#include "TestUtility/UnitTest.h"
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(ImageIO, DISABLED_CreateImageFromFile)
-{
-    NotImplemented();
-}
+TEST(ImageIO, DISABLED_CreateImageFromFile) { unit_test::NotImplemented(); }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(ImageIO, DISABLED_ReadImage)
-{
-    NotImplemented();
-}
+TEST(ImageIO, DISABLED_ReadImage) { unit_test::NotImplemented(); }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(ImageIO, DISABLED_WriteImage)
-{
-    NotImplemented();
-}
+TEST(ImageIO, DISABLED_WriteImage) { unit_test::NotImplemented(); }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(ImageIO, DISABLED_ReadImageFromPNG)
-{
-    NotImplemented();
-}
+TEST(ImageIO, DISABLED_ReadImageFromPNG) { unit_test::NotImplemented(); }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(ImageIO, DISABLED_WriteImageToPNG)
-{
-    NotImplemented();
-}
+TEST(ImageIO, DISABLED_WriteImageToPNG) { unit_test::NotImplemented(); }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(ImageIO, DISABLED_ReadImageFromJPG)
-{
-    NotImplemented();
-}
+TEST(ImageIO, DISABLED_ReadImageFromJPG) { unit_test::NotImplemented(); }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(ImageIO, DISABLED_WriteImageToJPG)
-{
-    NotImplemented();
-}
+TEST(ImageIO, DISABLED_WriteImageToJPG) { unit_test::NotImplemented(); }

@@ -24,44 +24,37 @@
 // IN THE SOFTWARE.
 // ----------------------------------------------------------------------------
 
-#include "UnitTest.h"
+#include "TestUtility/UnitTest.h"
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(TriangleMeshIO, DISABLED_CreateMeshFromFile)
-{
-    NotImplemented();
+TEST(TriangleMeshIO, DISABLED_CreateMeshFromFile) {
+    unit_test::NotImplemented();
 }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(TriangleMeshIO, DISABLED_ReadTriangleMesh)
-{
-    NotImplemented();
+TEST(TriangleMeshIO, DISABLED_ReadTriangleMesh) { unit_test::NotImplemented(); }
+
+// ----------------------------------------------------------------------------
+//
+// ----------------------------------------------------------------------------
+TEST(TriangleMeshIO, DISABLED_WriteTriangleMesh) {
+    unit_test::NotImplemented();
 }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(TriangleMeshIO, DISABLED_WriteTriangleMesh)
-{
-    NotImplemented();
+TEST(TriangleMeshIO, DISABLED_ReadTriangleMeshFromPLY) {
+    unit_test::NotImplemented();
 }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(TriangleMeshIO, DISABLED_ReadTriangleMeshFromPLY)
-{
-    NotImplemented();
-}
-
-// ----------------------------------------------------------------------------
-// 
-// ----------------------------------------------------------------------------
-TEST(TriangleMeshIO, DISABLED_WriteTriangleMeshToPLY)
-{
-    NotImplemented();
+TEST(TriangleMeshIO, DISABLED_WriteTriangleMeshToPLY) {
+    unit_test::NotImplemented();
 }

@@ -4,3 +4,7 @@ ColumnLimit: 80
 UseTab: Never
 Language: Cpp
 Standard: Cpp11
+ContinuationIndentWidth: 8
+AccessModifierOffset: -4
+BinPackParameters: false
+SortIncludes: true

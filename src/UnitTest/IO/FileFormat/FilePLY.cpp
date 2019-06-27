@@ -24,84 +24,54 @@
 // IN THE SOFTWARE.
 // ----------------------------------------------------------------------------
 
-#include "UnitTest.h"
+#include "TestUtility/UnitTest.h"
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(FilePLY, DISABLED_ReadVertexCallback)
-{
-    NotImplemented();
-}
+TEST(FilePLY, DISABLED_ReadVertexCallback) { unit_test::NotImplemented(); }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(FilePLY, DISABLED_AdvanceConsoleProgress)
-{
-    NotImplemented();
-}
+TEST(FilePLY, DISABLED_AdvanceConsoleProgress) { unit_test::NotImplemented(); }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(FilePLY, DISABLED_ReadNormalCallback)
-{
-    NotImplemented();
-}
+TEST(FilePLY, DISABLED_ReadNormalCallback) { unit_test::NotImplemented(); }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(FilePLY, DISABLED_ReadColorCallback)
-{
-    NotImplemented();
-}
+TEST(FilePLY, DISABLED_ReadColorCallback) { unit_test::NotImplemented(); }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(FilePLY, DISABLED_ReadFaceCallBack)
-{
-    NotImplemented();
-}
+TEST(FilePLY, DISABLED_ReadFaceCallBack) { unit_test::NotImplemented(); }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(FilePLY, DISABLED_ReadPointCloudFromPLY)
-{
-    NotImplemented();
-}
+TEST(FilePLY, DISABLED_ReadPointCloudFromPLY) { unit_test::NotImplemented(); }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(FilePLY, DISABLED_WritePointCloudToPLY)
-{
-    NotImplemented();
-}
+TEST(FilePLY, DISABLED_WritePointCloudToPLY) { unit_test::NotImplemented(); }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(FilePLY, DISABLED_ReadTriangleMeshFromPLY)
-{
-    NotImplemented();
-}
+TEST(FilePLY, DISABLED_ReadTriangleMeshFromPLY) { unit_test::NotImplemented(); }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(FilePLY, DISABLED_WriteTriangleMeshToPLY)
-{
-    NotImplemented();
-}
+TEST(FilePLY, DISABLED_WriteTriangleMeshToPLY) { unit_test::NotImplemented(); }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(FilePLY, DISABLED_ResetConsoleProgress)
-{
-    NotImplemented();
-}
+TEST(FilePLY, DISABLED_ResetConsoleProgress) { unit_test::NotImplemented(); }

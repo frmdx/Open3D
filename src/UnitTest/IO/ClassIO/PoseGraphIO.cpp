@@ -24,28 +24,21 @@
 // IN THE SOFTWARE.
 // ----------------------------------------------------------------------------
 
-#include "UnitTest.h"
+#include "TestUtility/UnitTest.h"
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(PoseGraphIO, DISABLED_CreatePoseGraphFromFile)
-{
-    NotImplemented();
+TEST(PoseGraphIO, DISABLED_CreatePoseGraphFromFile) {
+    unit_test::NotImplemented();
 }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(PoseGraphIO, DISABLED_ReadPoseGraph)
-{
-    NotImplemented();
-}
+TEST(PoseGraphIO, DISABLED_ReadPoseGraph) { unit_test::NotImplemented(); }
 
 // ----------------------------------------------------------------------------
-// 
+//
 // ----------------------------------------------------------------------------
-TEST(PoseGraphIO, DISABLED_WritePoseGraph)
-{
-    NotImplemented();
-}
+TEST(PoseGraphIO, DISABLED_WritePoseGraph) { unit_test::NotImplemented(); }
